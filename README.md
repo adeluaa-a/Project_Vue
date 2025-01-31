@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+КиноГид – это приложение на Vue.js для просмотра списка фильмов. Позволяет фильтровать фильмы по жанру, рейтингу и просматривать детальную информацию о каждом фильме.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Функционал:
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Главная страница отображает список фильмов.
+Можно фильтровать фильмы по жанру (мультфильмы, фантастика, комедии, драмы).
+Возможна сортировка по рейтингу (по убыванию и по возрастанию).
+Клик по фильму открывает страницу с его описанием.
+На странице фильма отображается его постер, название, жанр, рейтинг и описание.
+Кнопка "Назад" возвращает на главную страницу.
+Используемые технологии:
+
+Vue 3 (Composition API)
+Vue Router
+CSS (Flexbox, Grid)
+Google Fonts (Inter)
+Vite (для сборки проекта)
